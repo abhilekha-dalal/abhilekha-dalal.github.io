@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abhilekha Dalal | AI Researcher</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="styles/corporate.css">
 </head>
 <body>
     <header class="hero">
@@ -80,5 +80,11 @@
     <footer>
         <p>&copy; 2025 Abhilekha Dalal. All rights reserved.</p>
     </footer>
+    <script>
+        // JS style switcher
+        document.getElementById('styleSelect').addEventListener('change', function () {
+            document.getElementById('theme-style').setAttribute('href', this.value);
+        });
+    </script>
 </body>
 </html>
