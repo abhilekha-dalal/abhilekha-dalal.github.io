@@ -1,0 +1,51 @@
+/* Classic Charcoal & Orange Theme */
+body {
+    background-color: #FCFCFC;
+    color: #2C2C2C;
+}
+
+.hero,
+footer {
+    background-color: #F2F2F2;
+}
+
+.profile-photo,
+.profile-details i,
+.profile-name,
+.section h2 {
+    color: #2C2C2C;
+    border-color: #2C2C2C;
+}
+
+.cta-buttons a {
+    background-color: #FF6B35;
+    color: #fff;
+}
+
+.cta-buttons a:hover,
+.navbar ul li a:hover {
+    background-color: #E85C2A;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #333333;
+}
+
+.navbar ul li a {
+    color: #FFFFFF;
+}
+
+.info-cards div {
+    background-color: #F7F7F7;
+    color: #2C2C2C;
+}
+
+.section h2 {
+    color: #2C2C2C;
+}
+
+footer {
+    color: #666666;
+    border-top: 1px solid #CCCCCC;
+}

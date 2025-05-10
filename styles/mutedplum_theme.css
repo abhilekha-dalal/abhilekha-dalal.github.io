@@ -1,0 +1,51 @@
+/* Muted Plum & Ivory Theme */
+body {
+    background-color: #FAF9F7;
+    color: #2D2A32;
+}
+
+.hero,
+footer {
+    background-color: #F1EDF2;
+}
+
+.profile-photo,
+.profile-details i,
+.profile-name,
+.section h2 {
+    color: #5E4B56;
+    border-color: #5E4B56;
+}
+
+.cta-buttons a {
+    background-color: #B390A5;
+    color: #fff;
+}
+
+.cta-buttons a:hover,
+.navbar ul li a:hover {
+    background-color: #9C7C91;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #5E4B56;
+}
+
+.navbar ul li a {
+    color: #FDFBFA;
+}
+
+.info-cards div {
+    background-color: #EFE8ED;
+    color: #5E4B56;
+}
+
+.section h2 {
+    color: #5E4B56;
+}
+
+footer {
+    color: #5E4B56;
+    border-top: 1px solid #C3B6C0;
+}

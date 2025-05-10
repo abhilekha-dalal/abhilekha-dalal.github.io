@@ -1,0 +1,51 @@
+/* Indigo & Mint Theme */
+body {
+    background-color: #F8FBF9;
+    color: #1F2933;
+}
+
+.hero,
+footer {
+    background-color: #E0F7F1;
+}
+
+.profile-photo,
+.profile-details i,
+.profile-name,
+.section h2 {
+    color: #264653;
+    border-color: #264653;
+}
+
+.cta-buttons a {
+    background-color: #2A9D8F;
+    color: #fff;
+}
+
+.cta-buttons a:hover,
+.navbar ul li a:hover {
+    background-color: #21867A;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #1D3557;
+}
+
+.navbar ul li a {
+    color: #E0F7F1;
+}
+
+.info-cards div {
+    background-color: #DFF3F0;
+    color: #1D3557;
+}
+
+.section h2 {
+    color: #1D3557;
+}
+
+footer {
+    color: #1D3557;
+    border-top: 1px solid #B2DDD7;
+}
