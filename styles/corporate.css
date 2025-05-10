@@ -42,8 +42,9 @@ body {
 }
 
 .profile-name {
-    font-size: 1.4em;
+    font-size: 1.2em;
     font-weight: bold;
+    color: #444;
 }
 
 .profile-title {
@@ -170,6 +171,8 @@ body {
 /* Footer */
 footer {
     background-color: #f4f7fa;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
     padding: 20px;
     color: #666;
