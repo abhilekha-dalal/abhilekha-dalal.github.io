@@ -42,7 +42,8 @@ body {
 .profile-name {
     font-size: 1.4em;
     font-weight: bold;
-    color: #1A1A1A;
+    /* color: #1A1A1A; */
+    color: #FF6B35;
 }
 
 .profile-title {
