@@ -34,8 +34,8 @@ body {
 }
 
 .profile-photo {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid #264653;
@@ -48,24 +48,40 @@ body {
     color: #264653;
 }
 
-.profile-title {
+.position-title {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 0 0 4px 0; /* Add tight bottom spacing only */
+}
+
+/* .profile-title {
     font-size: 1em;
     color: #555;
     margin-bottom: 15px;
-}
+} */
 
 /* .profile-details {
     padding: 0;
 } */
 
-.profile-details a {
-    color: #1D3557; /* indigo link */
+/* .profile-details a {
+    color: #1D3557; 
     font-weight: 500;
     text-decoration: underline;
 }
 
 .profile-details a:hover {
-    color: #2A9D8F; /* mint accent on hover */
+    color: #2A9D8F; 
+} */
+.profile-details a {
+    color: #1D3557;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.profile-details a:hover {
+    color: #2A9D8F;
+    text-decoration: underline;
 }
 
 .profile-details li {
@@ -95,11 +111,11 @@ body {
     margin-bottom: 8px;
 }
 
-.institution {
+/* .institution {
     font-size: 1em;
     color: #444;
     margin-bottom: 15px;
-    /* -- */
+    
     margin-top: 0;
     font-weight: 500;
     color: #3e3e3e;
@@ -107,7 +123,7 @@ body {
 
 .bio {
     margin-bottom: 15px;
-    /* --- */
+   
     margin-top: 20px;
     line-height: 1.6;
     font-size: 1rem;
@@ -116,8 +132,30 @@ body {
 
 .interests {
     font-weight: 500;
-    /* -- */
+   
     margin-top: 20px;
+    font-weight: 600;
+    color: #1D3557;
+} */
+
+
+.institution {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0 0 15px 0; /* Remove top margin completely */
+    color: #3e3e3e;
+}
+.bio {
+    margin: 24px 0 16px 0;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: #333;
+}
+
+.interests {
+    margin-top: 16px;
+    padding-top: 12px;
+    border-top: 1px dashed #b2ddd7;
     font-weight: 600;
     color: #1D3557;
 }
