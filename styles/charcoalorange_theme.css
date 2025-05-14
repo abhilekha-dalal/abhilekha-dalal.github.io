@@ -39,11 +39,10 @@ body {
     margin-bottom: 15px;
 }
 
-.profile-name {
-    color: #FF6B35;
+.profile-name {    
     font-size: 1.4em;
     font-weight: bold;
-    /* color: #1A1A1A; */
+    color: #1A1A1A;
     
 }
 
@@ -175,4 +174,8 @@ footer {
     color: #666666;
     font-size: 0.9em;
     border-top: 1px solid #CCCCCC;
+}
+
+.highlight-name {
+    color: #FF6B35; /* vibrant orange */
 }
