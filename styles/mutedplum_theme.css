@@ -173,3 +173,7 @@ footer {
     font-size: 0.9em;
     border-top: 1px solid #C3B6C0;
 }
+
+.highlight-name {
+    color: #5E4B56; /* muted plum */
+}
