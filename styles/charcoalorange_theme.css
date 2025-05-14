@@ -40,10 +40,11 @@ body {
 }
 
 .profile-name {
+    color: #FF6B35;
     font-size: 1.4em;
     font-weight: bold;
     /* color: #1A1A1A; */
-    color: #FF6B35;
+    
 }
 
 .profile-title {
