@@ -25,7 +25,7 @@ body {
 }
 
 .profile-sidebar {
-    max-width: 240px;
+    max-width: 260px;
     text-align: center;
     flex-shrink: 0;
 }

@@ -22,13 +22,13 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 60px;
-    padding: 60px 20px;
+    padding: 40px 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
 .profile-sidebar {
-    max-width: 240px;
+    max-width: 260px;
     text-align: center;
     flex-shrink: 0;
 }
@@ -78,6 +78,7 @@ body {
     color: #264653;
 }
 
+
 .profile-main {
     max-width: 720px;
     text-align: left;
@@ -110,7 +111,8 @@ body {
     margin-top: 16px;
     padding-top: 12px;
     border-top: 1px dashed #b2ddd7;
-    font-weight: 600;
+    font-weight: 400;
+    font-style: italic;
     color: #1D3557;
 }
 
@@ -187,17 +189,14 @@ body {
 
 footer {
     background-color: #E0F7F1;
-    /* max-width: 1200px; */
     width: 100%;
-    /* margin: 0 auto; */
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: #1D3557;
     font-size: 0.9em;
     border-top: 1px solid #B2DDD7;
 }
 
 .highlight-name {
-    /* color: #264653;  */
     color: #2A9D8F;
 }
