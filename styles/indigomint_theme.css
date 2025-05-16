@@ -54,29 +54,16 @@ body {
     margin: 0 0 4px 0; /* Add tight bottom spacing only */
 }
 
-/* .profile-title {
-    font-size: 1em;
-    color: #555;
-    margin-bottom: 15px;
-} */
 
-/* .profile-details {
-    padding: 0;
-} */
-
-/* .profile-details a {
-    color: #1D3557; 
-    font-weight: 500;
-    text-decoration: underline;
-}
-
-.profile-details a:hover {
-    color: #2A9D8F; 
-} */
 .profile-details a {
     color: #1D3557;
-    font-weight: 600;
+    /* font-weight: 600; */
     text-decoration: none;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
 }
 
 .profile-details a:hover {
@@ -89,11 +76,18 @@ body {
     margin: 8px 0;
     font-size: 0.95em;
     text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .profile-details i {
     margin-right: 8px;
     color: #264653;
+    flex-shrink: 0;
 }
 
 .profile-main {
@@ -110,34 +104,6 @@ body {
 .profile-main h1 {
     margin-bottom: 8px;
 }
-
-/* .institution {
-    font-size: 1em;
-    color: #444;
-    margin-bottom: 15px;
-    
-    margin-top: 0;
-    font-weight: 500;
-    color: #3e3e3e;
-}
-
-.bio {
-    margin-bottom: 15px;
-   
-    margin-top: 20px;
-    line-height: 1.6;
-    font-size: 1rem;
-    color: #333;
-}
-
-.interests {
-    font-weight: 500;
-   
-    margin-top: 20px;
-    font-weight: 600;
-    color: #1D3557;
-} */
-
 
 .institution {
     font-size: 1em;
@@ -156,7 +122,8 @@ body {
     margin-top: 16px;
     padding-top: 12px;
     border-top: 1px dashed #b2ddd7;
-    font-weight: 600;
+    font-weight: 400;
+    font-style: italic;
     color: #1D3557;
 }
 
@@ -244,5 +211,6 @@ footer {
 }
 
 .highlight-name {
-    color: #264653; /* deep indigo/teal */
+    /* color: #264653;  */
+    color: #2A9D8F;
 }
