@@ -8,6 +8,11 @@ body {
     color: #1F2933;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
+
 .hero {
     /* background-color: #E0F7F1; */
     background-color: transparent;
